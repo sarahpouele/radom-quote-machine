@@ -1,0 +1,53 @@
+/*--------------Main Style--------------*/
+
+body{
+	background-image: url(images/writing-pexels2.jpg);
+}
+
+body, h1, h3, p, a {
+	font: "Petit Formal Script", Helvetica, Sans-serif;
+	color: #A75B10;
+}
+
+hr {
+	width: 600px;
+	border-bottom: 5px solid ;
+	height: 12px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px #696969;
+}
+
+/*--------------Main Container--------------*/
+
+.container {
+	text-align: center;
+	padding-top: 80px;
+	font-size: 15px;
+}
+
+/*--------------Quote Box--------------*/
+
+.quote-box {
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 18px;
+	font-weight: bold;
+	background: #d3d3d3;
+	opacity: 0.7;
+}
+
+#quote{
+	font-style: oblique;
+}
+
+/*--------------Buttons--------------*/
+
+.fa-twitter, .fa-quote-left{
+	color: #804000;
+}
+
+.btn{
+	background-color: #d3d3d3;
+	opacity: 0.7;
+}
+
